@@ -1,0 +1,54 @@
+<div class="game-member-item">
+<div class="large-3 columns text-center">
+  <a class="th radius" href="#">
+    <img src="images/<%= @image %>" />
+  </a>
+</div>
+<div class="large-9 columns stats-container">
+  <div class="row">
+    <div class="large-6 columns">
+      <div class="row">
+        <div class="large-5 columns attribute-label">Title</div>
+        <div class="large-7 columns"><%= @title %></div>
+      </div>
+      <div class="row">
+        <div class="large-5 columns attribute-label">Description</div>
+        <div class="large-7 columns"><%= @description %></div>
+      </div>
+      <div class="row">
+        <div class="large-5 columns attribute-label">Genre</div>
+        <div class="large-7 columns"></div>
+      </div>
+      <div class="row">
+        <div class="large-5 columns attribute-label">Official Site</div>
+        <div class="large-7 columns">
+            <a class="external-link" href="http://<%= @officalwebsite %>"><%= @officalwebsite %></a></div>
+      </div>
+    </div>
+    <div class="large-6 columns">
+      <blockquote>
+        <ul class="large-block-grid-2 text-center stats">
+          <li>
+            <div>
+              <span class="label round">5</span>
+            </div>
+            <div class="stat-type">Completed</div>
+          </li>
+          <li>
+            <div>
+              <span class="label round success">$5,000</span>
+            </div>
+            <div class="stat-type">Earnings</div>
+          </li>
+        </ul>
+      </blockquote>
+    </div>
+  </div>
+</div>
+<div class="game-delete">
+  <button class="button secondary tiny radius">
+    <i class="fa fa-minus-circle"></i>
+    Delete
+  </button>
+</div>
+</div>

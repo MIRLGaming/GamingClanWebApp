@@ -1,0 +1,4 @@
+<img class="slide-image" src="images/<%= @image %>" />
+<div class="slide-caption" style="position:relative;bottom: 60px;background-color:rgba(0, 0, 0, 0.23);padding-left:10px;">
+	<h3><%= @title %></h3>	
+</div>

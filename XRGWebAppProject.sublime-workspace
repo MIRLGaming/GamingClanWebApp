@@ -1,0 +1,331 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"margin",
+				"margin-right"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"rg",
+				"rgba()"
+			],
+			[
+				"exte",
+				"extends"
+			],
+			[
+				"layout",
+				"layoutInfo"
+			],
+			[
+				"layou",
+				"layoutInfo"
+			],
+			[
+				"getL",
+				"getLayoutView"
+			],
+			[
+				"Con",
+				"Controllers"
+			],
+			[
+				"Co",
+				"CollectionView"
+			],
+			[
+				"reg",
+				"regions"
+			],
+			[
+				"clas",
+				"className"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"ext",
+				"execute"
+			],
+			[
+				"list",
+				"listenTo"
+			],
+			[
+				"cla",
+				"class"
+			],
+			[
+				"ex",
+				"extends"
+			],
+			[
+				"q",
+				"quickLinks"
+			],
+			[
+				"task",
+				"listTaskStats"
+			],
+			[
+				"ping",
+				"pingHostGroups"
+			],
+			[
+				"Ale",
+				"Alerts"
+			],
+			[
+				"alerts",
+				"alertsView"
+			],
+			[
+				"re",
+				"request"
+			],
+			[
+				"get",
+				"getAlertsView"
+			],
+			[
+				"hel",
+				"helpdeskTaskTotals"
+			],
+			[
+				"set",
+				"setHandler"
+			],
+			[
+				"current",
+				"currentUser"
+			],
+			[
+				"cur",
+				"currentUser"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 380.0,
+		"selected_items":
+		[
+			[
+				"packag",
+				"Package Control: Install Package"
+			],
+			[
+				"install package ",
+				"Package Control: Install Package"
+			],
+			[
+				"install package",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/Development/generator-marionette-bm/package.json",
+		"/C/Users/swestern/AppData/Local/Temp/fz3temp-13/style.css",
+		"/C/Users/swestern/AppData/Local/Temp/fz3temp-12/style.css",
+		"/C/Users/swestern/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/C/Users/swestern/AppData/Local/Temp/fz3temp-10/form_view.coffee",
+		"/D/Development/MonitorThingProject/it/includes/js/backbone/lib/components/form/form_view.coffee",
+		"/D/Development/MonitorThingProject/it/includes/js/backbone/lib/views/view.js",
+		"/D/Development/MonitorThingProject/it/includes/js/backbone/lib/views/layout.js",
+		"/D/Development/MonitorThingProject/it/includes/js/backbone/apps/winservices/winservices_app.js",
+		"/D/Development/MonitorThingProject/it/includes/js/backbone/apps/ports/ports_app.js",
+		"/D/Development/MonitorThingProject/it/includes/js/backbone/apps/ports/templates/templates.php",
+		"/D/Development/MonitorThingProject/it/includes/js/backbone/apps/winservices/templates/templates.php",
+		"/D/Development/MonitorThingProject/it/includes/js/backbone/apps/header/list/list_view.js",
+		"/D/Development/MonitorThingProject/it/includes/js/backbone/apps/header/list/list_controller.js",
+		"/C/Users/swestern/AppData/Local/Temp/fz3temp-3/style.css",
+		"/D/Development/MonitorThingProject/it/includes/js/backbone/MonitorThing.coffee",
+		"/C/Users/swestern/AppData/Local/Temp/fz3temp-3/jquery.status-message.css",
+		"/C/Users/swestern/AppData/Local/Temp/fz3temp-1/form_controller.coffee",
+		"/D/Development/MonitorThingProject/it/includes/js/backbone/lib/entities/models.coffee",
+		"/D/Development/MonitorThingProject/it/includes/js/backbone/apps/links/edit_new/edit_new_controller.coffee",
+		"/D/Development/MonitorThingProject/it/includes/js/backbone/apps/links/edit_new/edit_new_view.coffee",
+		"/D/Development/MonitorThingProject/it/includes/js/backbone/lib/components/form/form_controller.coffee",
+		"/C/Users/swestern/AppData/Local/Temp/fz3temp-31/default.css",
+		"/D/Development/MonitorThingProject/it/includes/js/config/backbone/sync.coffee",
+		"/D/Development/MonitorThingProject/it/includes/js/backbone/lib/components/form/form_view.js",
+		"/D/Development/MonitorThingProject/it/includes/js/backbone/lib/views/view.coffee",
+		"/D/Development/MonitorThingProject/it/includes/js/config/jquery.coffee",
+		"/D/Development/MonitorThingProject/it/includes/js/config/jquery.js",
+		"/D/Development/MonitorThingProject/it/includes/js/backbone/apps/settings_helpdesk/list/list_controller.coffee",
+		"/D/Development/MonitorThingProject/it/includes/js/backbone/apps/settings_helpdesk/list/list_view.coffee",
+		"/D/Development/MonitorThingProject/it/includes/js/backbone/apps/settings_helpdesk/settings_helpdesk_app.coffee",
+		"/D/Development/MonitorThingProject/it/includes/js/backbone/apps/settings/list/list_view.coffee",
+		"/D/Development/MonitorThingProject/it/includes/js/backbone/apps/settings/list/list_controller.coffee",
+		"/C/new 2.html.twig",
+		"/D/Development/MonitorThingProject/it/includes/js/backbone/apps/monitor/list/list_controller.coffee",
+		"/D/Development/MonitorThingProject/it/includes/js/backbone/apps/monitor_pingthing/monitor_pingthing_app.coffee",
+		"/D/Development/MonitorThingProject/it/includes/js/backbone/lib/regions/dialog_region.coffee",
+		"/D/Development/MonitorThingProject/it/includes/js/backbone/lib/controllers/application_controller.coffee",
+		"/C/new  2.tmpl",
+		"/D/Development/MonitorThingProject/current backup/it/includes/js/backbone/apps/dashboard/dashboard.js",
+		"/D/Development/MonitorThingProject/it/includes/js/backbone/apps/dashboard/dashboard.coffee",
+		"/D/Development/MonitorThingProject/src/it/includes/js/backbone/apps/dashboard/dashboard.coffee",
+		"/D/Development/MonitorThingProject/src/it/includes/js/backbone/MonitorThing.coffee",
+		"/D/Development/MonitorThingProject/lib/it/includes/js/backbone/MonitorThing.js",
+		"/D/Development/MonitorThingProject/lib/it/includes/js/backbone/apps/dashboard/dashboard.js",
+		"/D/Development/MonitorThingProject/src/it/includes/js/backbone/apps/alerts/alerts.coffee",
+		"/D/Development/MonitorThingProject/lib/it/includes/js/backbone/apps/dashboard/dashboard.coffee",
+		"/D/Development/MonitorThingProject/src/it/includes/js/MonitorThing.coffee",
+		"/D/Development/MonitorThingProject/lib/it/includes/js/MonitorThing.js.js",
+		"/C/Users/swestern/AppData/Roaming/Sublime Text 2/Packages/User/Plain text.sublime-settings",
+		"/D/Development/MonitorThingProject/src/it/includes/js/MonitorThing.js.coffee",
+		"/D/Development/temp/7062013/top-bar.js",
+		"/D/Development/temp/25032013/myopen.php",
+		"/D/Development/temp/7062013/top-bar-ajax-all-alerts.js",
+		"/D/Development/temp/7062013/top-bar-all.js"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"D:\\Development\\MonitorThingProject\\src\\it\\includes\\js\\backbone\\apps\\dashboard"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"\n.",
+			"yeoman",
+			"jst",
+			"close",
+			"itemView:",
+			"App",
+			"Locations",
+			"locations",
+			"admin",
+			"AdminLocationsApp",
+			"AdminContentsApp",
+			"monitorNavs",
+			"AdminLocationsApp",
+			"adminNavs",
+			"dashboard",
+			"t"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"config",
+			"childView:",
+			"MonitorPingThingApp"
+		],
+		"reverse": false,
+		"show_context": false,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 132.0,
+	"status_bar_visible": true
+}

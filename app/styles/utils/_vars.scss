@@ -1,0 +1,32 @@
+$white: #FFFFFF;
+$gray: #EFEFEF;
+$black: #111;
+$muted: #999;
+$blue: #2BA6CB;
+$red: #c0392b;
+$xrg-red: darken(#FF0000, 20%);
+$primary-color: $xrg-red;
+$xrg-orange: darken(#ff9900, 7%);
+$secondary-color: $xrg-orange;
+$xrg-grey: #333;
+
+$pushHeight: 60px;
+
+$topbar-bg: $black;
+$topbar-link-bg-hover: lighten($topbar-bg, 7%);
+$topbar-link-bg-active: lighten($topbar-bg, 7%);
+
+// overide breadcrumb vars
+
+$crumb-font-color-current: $xrg-grey;
+$crumb-bg: $xrg-grey;	// We use this to set the background color for the breadcrumb container.
+
+// We use these to control border styles.
+$crumb-function-factor: -10%;
+$crumb-border-color: scale-color($crumb-bg, $lightness: $crumb-function-factor);
+
+$sidenav-bg: #E8E8E8;
+
+$content-bg: $black;
+
+$footer-bg: $black;

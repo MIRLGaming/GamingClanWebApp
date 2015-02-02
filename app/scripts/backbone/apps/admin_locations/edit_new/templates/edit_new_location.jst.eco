@@ -1,0 +1,43 @@
+<div id="edit-new-location">
+  <div class="row">
+    <div class="large-3 columns">
+      <label class="right inline">Name</label>
+        </div>
+    <div class="large-9 columns">
+      <div class="large-5 left">
+        <input type="text" name="name" />
+      </div>
+      <div class="large-7 columns">
+        <h6 class="subheader hint">Ex: Earth, Mars, 14th Street</h6>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="large-3 columns">
+      <label class="right inline">Description</label>
+        </div>
+    <div class="large-9 columns">
+      <textarea name="description"></textarea>
+    </div>
+  </div>
+  <div class="row">
+    <div class="large-3 columns">
+      <label class="right inline">Danger</label>
+    </div>
+    <div class="large-9 columns">
+      <ul class="inline-list left">
+        <% for danger, klass of @dangerLookups: %>
+          <li>
+            <label class="inline">
+              <input name="danger" value="<%= danger %>" type="radio" />
+              <span class="label radius <%= klass %>"><%= _.capitalize(danger) %></span>
+            </label>
+          </li>
+        <% end %>
+      </ul>
+      <div class="row">
+        <div class="large-6 columns left error-container"></div>
+      </div>
+    </div>
+  </div>
+</div>

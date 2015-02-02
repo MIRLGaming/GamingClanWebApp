@@ -1,0 +1,6 @@
+<div class="right">
+  <button class="button radius small secondary">
+    <i class="fa fa-plus-circle"></i>
+    Add
+  </button>
+</div>

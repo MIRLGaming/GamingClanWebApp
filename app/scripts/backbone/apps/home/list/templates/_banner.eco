@@ -1,0 +1,22 @@
+<div id="banner">
+  <div class="row">
+    <div class="large-12 columns">
+      <h1>Welcome</h1>
+      <h4>To the XRG Gaming Community</h4>
+      <div id="page-icons">
+        <i class="fa fa-home"></i>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="breadcrumbs">
+  <div class="row">
+    <div class="columns large-12">
+      <ul class="right">
+        <li>
+          <a href="#home">Home</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>

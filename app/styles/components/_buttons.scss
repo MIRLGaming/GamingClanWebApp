@@ -1,0 +1,9 @@
+.icon-btn, .icon-btn:hover,
+.icon-btn:active, .icon-btn:focus       { font-size: 16px; background-color: transparent; border-color: transparent; padding: 0; color: inherit; display: inline; line-height: 1.125em; margin: 0; }
+
+.edit-btn                   {  color: darken($blue, 10%);
+  &:hover                 {  color: darken($blue, 18%); }
+}
+.delete-btn                 {  color: $red;
+  &:hover                 {  color: darken($red, 8%); }
+}

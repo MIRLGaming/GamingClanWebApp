@@ -1,0 +1,18 @@
+<div id="home">
+  <div id="banner-region"></div>
+  <section>
+    <div class="row content-backdrop">
+      <div class="small-12 large-12 columns">
+        <div id="panel-region"></div>
+      </div>
+    </div>
+    <div class="row content-backdrop">
+      <div class="large-8 columns">
+        <div id="content-region"></div>
+      </div>
+      <div class="large-4 columns">
+        <div id="side-region"></div>
+      </div>
+    </div>
+  </section>
+</div>

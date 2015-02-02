@@ -1,0 +1,6 @@
+<div class="panel radius text-center">
+  <h2>
+    <small>No Games Found!</small>
+  </h2>
+  <p class="subheader">Add a game to get started.</p>
+</div>

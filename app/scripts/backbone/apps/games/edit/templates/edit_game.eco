@@ -1,0 +1,65 @@
+<div id="edit-crew">
+  <fieldset>
+    <legend>Details</legend>
+    <div class="row">
+      <div class="large-3 columns">
+        <label class="right inline">Title</label>
+      </div>
+      <div class="large-9 columns">
+        <div class="large-5 left">
+          <input type="text" name="title" value="<%= @title %>" />
+        </div>
+        <div class="large-7 columns">
+          <h6 class="subheader hint">Title of the Game</h6>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="large-3 columns">
+        <label class="right inline">Description</label>
+      </div>
+      <div class="large-9 columns">
+        <div class="large-5">
+          <input type="text" name="description" class="large-2" value="<%= @description %>" />
+        </div>
+      </div>
+    </div>    
+    <div class="row">
+      <div class="large-3 columns">
+        <label class="right inline">Image</label>
+      </div>
+      <div class="large-9 columns">
+        <div class="large-5">
+          <input type="text" name="image"value="<%= @image %>" />
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="large-3 columns">
+        <label class="right inline">Official Website</label>
+      </div>
+      <div class="large-9 columns">
+        <div class="large-5">
+          <input type="text" name="officalwebsite"value="<%= @officalwebsite %>" />
+        </div>
+      </div>
+    </div>
+  </fieldset>
+  <fieldset>
+    <legend>Servers</legend>
+    
+    <div class="row">
+      <div class="large-3 columns">
+        <label class="right inline">Game Server</label>
+          </div>
+      <div class="large-9 columns">
+        <div class="large-5 left">
+          <input type="text" name="gameserveraddress" value="<%= @gameserveraddress %>" />
+        </div>
+        <div class="large-7 columns">
+          <h6 class="subheader hint">The address of the game server.</h6>
+        </div>
+      </div>
+    </div>
+  </fieldset>
+</div>

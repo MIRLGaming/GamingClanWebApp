@@ -1,0 +1,20 @@
+<div id="crew-list">
+  <div id="banner-region"></div>
+  <section>
+    <div class="row">
+      <div class="large-12 columns">
+        <div id="panel-region"></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="large-12 columns">
+        <div id="new-region"></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="large-12 columns">
+        <div id="crew-region"></div>
+      </div>
+    </div>
+  </section>
+</div>

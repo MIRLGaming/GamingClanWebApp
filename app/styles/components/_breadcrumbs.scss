@@ -1,0 +1,6 @@
+#breadcrumbs          {  border-radius: 0; border-top-width: 0; @include crumb-container; 
+  ul                  {  margin-bottom: 0;
+        li            {  @include crumbs; }
+    li:last-child      {  padding-right: 0; }
+  }
+}

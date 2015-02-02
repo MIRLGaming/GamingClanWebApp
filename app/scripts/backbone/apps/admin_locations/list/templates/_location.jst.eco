@@ -1,0 +1,19 @@
+<td>
+  <%= @name %>
+</td>
+<td>
+  <p class="subheader"><%= @description %></p>
+</td>
+<td>
+  <span class="label radius <%= @dangerClass %>">
+    <%= @dangerFormatted %>
+  </span>
+</td>
+<td>
+  <button data-js-edit="true" class="icon-btn edit-btn" title="Edit">
+    <i class="fa fa-pencil"></i>
+  </button>
+  <button data-js-destroy="true" class="icon-btn delete-btn" title="Delete">
+    <i class="fa fa-minus-circle"></i>
+  </button>
+</td>

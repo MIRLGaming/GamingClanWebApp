@@ -1,0 +1,30 @@
+#game-list{
+  .game-member{  border-bottom: 1px dashed lighten($xrg-grey,10%); border-left: 3px solid lighten($xrg-grey,10%); padding: 15px 0; overflow: auto; cursor: pointer; position: relative;
+    &:hover{  
+      border-left: 3px solid $xrg-orange;
+      border-bottom-color: $xrg-orange; 
+      //background-color: lighten($black, 45%); 
+      
+      // needs latest Compass, add '@import "compass"' to your scss
+      //@include filter-gradient(#ff9900, #ff9900, horizontal); // IE6-8
+      // IE9 SVG, needs conditional override of 'filter' to 'none'
+      $experimental-support-for-svg: true;
+      background-image: linear-gradient(left,  rgba(255,153,0,1) 0%,rgba(255,153,0,0) 29%,rgba(255,153,0,0) 99%);
+
+
+
+      .game-delete    {  display: block;  }
+    }
+    &:first-child      {  border-top: 1px dashed lighten($xrg-grey,10%); }    
+  }
+  .stats-container    {  font-size: 14px; margin-top: 15px;  }
+  .attribute-label    {  color: #999; font-variant: small-caps; text-align: right; font-weight: bold;  }
+  blockquote ul        {  padding: 10px 0;  }
+  .stats              {
+    .stat-type        {  color: #555; font-size: 17px; text-transform: uppercase;  }
+  }
+  .game-delete        {  position: absolute; top: 10px; right: 10px; display: none; font-weight: normal; font-size: 14px;
+    button, i          {  color: #C00000;  }
+    i                  {  font-size: 10px;  }
+  }
+}
