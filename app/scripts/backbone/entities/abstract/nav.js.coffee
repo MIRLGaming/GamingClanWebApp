@@ -14,21 +14,20 @@
   API =
     getNavs: ->
       new Entities.NavsCollection [
-        { divider: true }
-        { name: "Home",  url: "#home",  icon: "fa fa-home" }
-        { divider: true }
-        { name: "Games",       url: "#game",       icon: "fa fa-gamepad" }
-        { divider: true }
-        { name: "About",       url: "#about",       icon: "fa fa-question" }
-                
+        { name: "Home",        url: "#home",        icon: "fa fa-home" }
+        { name: "Roster",      url: "#roster",        icon: "fa fa-users", submenu: [
+                                                                          { name: "Officers",     url: "#roster/officers",    icon: false }
+                                                                          { name: "Players",      url: "#roster/players",     icon: false }
+                                                                          { name: "Recruitment",  url: "#roster/recruitment", icon: false }
+                                                                        ] 
+                                                                      }
+        { name: "Games",       url: "#games",        icon: "fa fa-gamepad" }
+        { name: "About",       url: "#about",       icon: "fa fa-question" }         
       ]
 
     getAdminNavs: ->
       new Entities.NavsCollection [
-        { name: "Locations",  url: "#admin/locations",  icon: "fa fa-fw fa-map-marker" }
-        { name: "Recipients", url: "#admin/recipients", icon: "fa fa-fw fa-user" }
-        { name: "Contents",   url: "#admin/contents",   icon: "fa fa-fw fa-archive" }
-        { name: "Outcomes",   url: "#admin/outcomes",   icon: "fa fa-fw fa-check-square-o" }
+        { name: "Locations",  url: "#admin/locations",  icon: "fa fa-fw fa-map-marker" }        
       ]
 
   App.reqres.setHandler "nav:entities", ->

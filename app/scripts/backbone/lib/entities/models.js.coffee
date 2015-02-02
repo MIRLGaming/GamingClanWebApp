@@ -1,7 +1,5 @@
 @XRG.module "Entities", (Entities, App, Backbone, Marionette, $, _) ->
 
-  class Entities.FirebaseModel extends Backbone.Firebase.Model
-
   class Entities.Model extends Backbone.Model
 
     destroy: (options = {}) ->
@@ -44,11 +42,6 @@
   API =
     newModel: (attrs) ->
       new Entities.Model attrs
-    newFirebaseModel: (attrs) ->
-      new Entities.Firebase.Model attrs
 
   App.reqres.setHandler "new:model", (attrs = {}) ->
     API.newModel attrs
-
-  App.reqres.setHandler "new:firebase:model", (attrs = {}) ->
-    API.newFirebaseModel attrs

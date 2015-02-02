@@ -6,7 +6,7 @@
     
   API =
     list: ->
-      App.vent.trigger "nav:choose", "Home"
+      App.vent.trigger "nav:choose", "About"
       new HomeApp.List.Controller
 
       

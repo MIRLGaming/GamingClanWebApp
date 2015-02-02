@@ -3,10 +3,11 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Xrg</title>
+        <title>MIRL</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        
         <!-- build:css(.tmp) styles/main.css -->
         <link rel="stylesheet" href="styles/app.css">        
         <!-- endbuild -->
@@ -19,11 +20,11 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-        <div class="container">
-            <div id="header-region"></div>
-            <div id="main-region"></div>
-            <div id="footer-region"></div>
+        <div id="header-region">Loading...</div>
+        <div class="containter-fluid">
+            <div id="main-region"></div>            
         </div>
+        <div id="footer-region"></div>
         <div id="dialog-region"></div>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
@@ -33,23 +34,20 @@
             e=o.createElement(i);r=o.getElementsByTagName(i)[0];
             e.src='//www.google-analytics.com/analytics.js';
             r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-XXXXX-X');ga('send','pageview');
+            ga('create','***REMOVED***');ga('send','pageview');
         </script>
 
-
+        <script src="https://maps.googleapis.com/maps/api/js?key=***REMOVED***"></script>
         <!-- build:js scripts/vendor.js -->
         <script src="bower_components/jquery/dist/jquery.js"></script>
         <script src="bower_components/lodash/dist/lodash.compat.js"></script>
         <script src="bower_components/backbone/backbone.js"></script>
-        <script src="bower_components/firebase/firebase.js"></script>
-        <script src="bower_components/backfire/backbone-firebase.js"></script>
         <script src="bower_components/marionette/lib/backbone.marionette.js"></script>
-        <script src="bower_components/cocktail/cocktail.js"></script>
-        <script src="bower_components/foundation/js/foundation.js"></script>
+        <script src="bower_components/cocktail/cocktail.js"></script>        
         <script src="bower_components/backbone.chooser/build/backbone-chooser.js"></script>
         <script src="bower_components/marionette.backbone.syphon/lib/backbone.syphon.js"></script>
-        <script src="bower_components/slick.js/slick/slick.js"></script>
         <script src="bower_components/spinjs/spin.js"></script>
+        <script src="bower_components/bootstrap-sass/dist/js/bootstrap.min.js"></script>        
         <!-- endbuild -->
 
 
@@ -102,11 +100,7 @@
         <!-- backbone/entities -->
         <script src="scripts/backbone/entities/abstract/buttons.js"></script>
         <script src="scripts/backbone/entities/abstract/nav.js"></script>
-        <script src="scripts/backbone/entities/abstract/slides.js"></script>
-
-        <script src="scripts/backbone/entities/crew.js"></script>
-        <script src="scripts/backbone/entities/game.js"></script>
-        <script src="scripts/backbone/entities/location.js"></script>
+        <script src="scripts/backbone/entities/busroutes.js"></script>
 
         <!-- backbone/apps -->
         <script src="scripts/backbone/apps/header/header_app.js"></script>
@@ -117,21 +111,14 @@
         <script src="scripts/backbone/apps/footer/show/show_controller.js"></script>
         <script src="scripts/backbone/apps/footer/show/show_view.js"></script>
 
+        <script src="scripts/backbone/apps/about/about_app.js"></script>
+        <script src="scripts/backbone/apps/about/list/list_controller.js"></script>
+        <script src="scripts/backbone/apps/about/list/list_view.js"></script>
+
         <script src="scripts/backbone/apps/home/home_app.js"></script>
         <script src="scripts/backbone/apps/home/list/list_controller.js"></script>
         <script src="scripts/backbone/apps/home/list/list_view.js"></script>
 
-        <script src="scripts/backbone/apps/games/games_app.js"></script>
-        <script src="scripts/backbone/apps/games/list/list_controller.js"></script>
-        <script src="scripts/backbone/apps/games/list/list_view.js"></script>
-        <script src="scripts/backbone/apps/games/new/new_controller.js"></script>
-        <script src="scripts/backbone/apps/games/new/new_view.js"></script>
-        <script src="scripts/backbone/apps/games/edit/edit_controller.js"></script>
-        <script src="scripts/backbone/apps/games/edit/edit_view.js"></script>
-
-        <script src="scripts/backbone/apps/about/about_app.js"></script>
-        <script src="scripts/backbone/apps/about/list/list_controller.js"></script>
-        <script src="scripts/backbone/apps/about/list/list_view.js"></script>
         
         <script src="scripts/templates.js"></script>
         <script src="scripts/start.js"></script>

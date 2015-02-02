@@ -1,14 +1,9 @@
-<footer>
-  <div class="row">
-    <div class="columns">
-      <h6 class="subheader">XRG - Cross Reference Gaming<br> 
-	  • Design by Chris Charles/Scott Western • Code by Scott Western • &copy; 2014<br>	  
-      </h6>
-    </div>
-  </div>
-  <div class="row">
-  	<div class="columns">
-  		<h6 class="subheader">• Boring stuff •</h6>
-  	</div>
-  </div>
-</footer>
+<div id="footer-content" class="clearfix">
+	<footer class="footer">
+      <div>
+        <p> © 2015 | MiRL | Website by MiRL GamiXr and MiRL SJWMAFIAMANSJW </p>
+		<p> <a href="Index.html">Home</a> | <a href="Games.html">Games</a> | Contact Us | <a href="Officers.html">Members</a> | <a href="AboutUs.html">About </a></p>
+
+      </div>
+    </footer>
+</div>

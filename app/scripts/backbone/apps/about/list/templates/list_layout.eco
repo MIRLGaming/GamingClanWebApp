@@ -1,1 +1,12 @@
-Find me in: about/list/list_layout
+<div class="page-header">
+	<h1>About</h1>
+</div>
+<ol class="breadcrumb">
+	<li><a href="/">Investigator College</a></li>
+	<li><a href="/bus-service/">Bus Service</a></li>
+	<li><a href="#bus-routes">Bus Routes</a></li>
+	<li class="active">About</li>
+</ol>
+<p class="lead">This is the Investigator College bus routes web application.</p>
+<p>If you have any queries about bus routes, please contact the College.<br>
+<small>We welcome any feedback about this application, please email <a href="mailto:busappfeedback@investigator.sa.edu.au?subject=Bus Web App Feedback">busappfeedback@investigator.sa.edu.au</a>. </small></p>

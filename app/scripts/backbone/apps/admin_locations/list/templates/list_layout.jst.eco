@@ -1,8 +1,0 @@
-<div class="row">
-  <h3 class="large-6 columns">
-    <i class="fa fa-map-marker"></i>
-    Locations
-  </h3>
-  <div id="panel-region" class="large-6 columns"></div>
-  <div id="locations-region" class="large-12 columns"></div>
-</div>

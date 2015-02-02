@@ -40,12 +40,6 @@ module.exports = function (grunt) {
                 files: ['test/spec/**/*.coffee'],
                 tasks: ['coffee:test']
             },
-            
-            //compass: {
-            //    files: ['<%= yeoman.app %>/styles/{,*/}*.{scss,sass}'],
-            //    tasks: ['compass']
-            //},
-            
             sass: {
                 files: ['<%= yeoman.app %>/styles/**/*.{scss,sass}'],
                 tasks: ['sass']
@@ -63,12 +57,6 @@ module.exports = function (grunt) {
                     'test/spec/**/*.js'
                 ]
             },
-            // jst: {
-            //     files: [
-            //         '<%= yeoman.app %>/scripts/templates/*.ejs'
-            //     ],
-            //     tasks: ['jst']
-            // },
             eco: {
                 files: ['<%= yeoman.app %>/scripts/**/*.eco'],
                 tasks: ['eco']
@@ -172,35 +160,15 @@ module.exports = function (grunt) {
                 }]
             }
         },
-
-        /*
-        compass: {
-            options: {
-                sassDir: '<%= yeoman.app %>/styles',
-                cssDir: '.tmp/styles',
-                imagesDir: '<%= yeoman.app %>/images',
-                javascriptsDir: '<%= yeoman.app %>/scripts',
-                fontsDir: '<%= yeoman.app %>/styles/fonts',
-                importPath: '<%= yeoman.app %>/bower_components',
-                relativeAssets: true
-            },
-            dist: {},
-            server: {
-                options: {
-                    debugInfo: true
-                }
-            }
-        },
-        */
         sass: {           
             options: {
                 sourceMap: true,
                 imagePath: ['<%= yeoman.app %>/images'],
-                includePaths: ['<%= yeoman.app %>/bower_components/foundation/scss','<%= yeoman.app %>/bower_components/slick.js/slick'],                
+                includePaths: ['<%= yeoman.app %>/bower_components/bootstrap-sass/lib','<%= yeoman.app %>/bower_components/slick.js/slick','<%= yeoman.app %>/bower_components/fontawesome/scss'],                
             },
             dist: {
                 files: {
-                    '<%= yeoman.dist %>/styles/app.css' : '<%= yeoman.app %>/styles/app.scss'
+                    '.tmp/styles/app.css' : '<%= yeoman.app %>/styles/app.scss',
                 }
             },
             server: {
@@ -228,6 +196,7 @@ module.exports = function (grunt) {
                 dirs: ['<%= yeoman.dist %>']
             }
         },
+        
         imagemin: {
             dist: {
                 files: [{
@@ -243,6 +212,7 @@ module.exports = function (grunt) {
                 files: {
                     '<%= yeoman.dist %>/styles/main.css': [
                         '.tmp/styles/**/*.css',
+                        '.tmp/concat/styles/**/*.css',
                         '<%= yeoman.app %>/styles/**/*.css'
                     ]
                 }
@@ -287,13 +257,6 @@ module.exports = function (grunt) {
                 }]
             }
         },
-        // jst: {
-        //     compile: {
-        //         files: {
-        //             '.tmp/scripts/templates.js': ['<%= yeoman.app %>/scripts/**/*.ejs']
-        //         }
-        //     }
-        // },
         eco: {
             options: {
                 basePath: '<%= yeoman.app %>/scripts'
@@ -311,7 +274,7 @@ module.exports = function (grunt) {
                         '<%= yeoman.dist %>/scripts/**/*.js',
                         '<%= yeoman.dist %>/styles/**/*.css',
                         '<%= yeoman.dist %>/images/{,*/}*.{png,jpg,jpeg,gif,webp}',
-                        '/styles/fonts/{,*/}*.*',                        
+                        '<%= yeoman.dist %>/fonts/{,*/}*.*',                        
                     ]
                 }
             }
@@ -320,11 +283,6 @@ module.exports = function (grunt) {
 
     grunt.registerTask('createDefaultTemplate', function () {
         grunt.file.write('.tmp/scripts/templates.js', 'this.JST = this.JST || {};');
-    });
-
-    grunt.registerTask('server', function (target) {
-        grunt.log.warn('The `server` task has been deprecated. Use `grunt serve` to start a server.');
-        grunt.task.run(['serve' + (target ? ':' + target : '')]);
     });
 
     grunt.registerTask('serve', function (target) {
@@ -336,8 +294,7 @@ module.exports = function (grunt) {
             return grunt.task.run([
                 'clean:server',
                 'coffee',
-                'createDefaultTemplate',
-                //'jst',
+                'createDefaultTemplate',                
                 'eco',
                 'sass:server',
                 'connect:test',
@@ -350,7 +307,6 @@ module.exports = function (grunt) {
             'clean:server',
             'coffee:dist',
             'createDefaultTemplate',
-            //'jst',
             'eco',
             'sass:server',
             'connect:livereload',
@@ -365,7 +321,6 @@ module.exports = function (grunt) {
                 'clean:server',
                 'coffee',
                 'createDefaultTemplate',
-                //'jst',
                 'eco',
                 'sass',
                 'connect:test',
@@ -385,7 +340,6 @@ module.exports = function (grunt) {
         'clean:dist',
         'coffee',
         'createDefaultTemplate',
-        // 'jst',
         'eco',
         'sass:dist',
         'useminPrepare',

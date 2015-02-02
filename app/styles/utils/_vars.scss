@@ -17,7 +17,6 @@ $topbar-link-bg-hover: lighten($topbar-bg, 7%);
 $topbar-link-bg-active: lighten($topbar-bg, 7%);
 
 // overide breadcrumb vars
-
 $crumb-font-color-current: $xrg-grey;
 $crumb-bg: $xrg-grey;	// We use this to set the background color for the breadcrumb container.
 
@@ -29,4 +28,11 @@ $sidenav-bg: #E8E8E8;
 
 $content-bg: $black;
 
-$footer-bg: $black;
+$footer-bg: #f9f9f9;
+$footer-border-color: #ececec;
+
+$widget-title-color: #1d1d1d;
+$widget-color: #929292;
+$widget-link-color: #929292;
+
+$copyright-color: #cdcdcd;

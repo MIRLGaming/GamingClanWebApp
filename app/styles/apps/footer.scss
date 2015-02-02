@@ -1,1 +1,7 @@
-#footer-region      {  background-color: $footer-bg; text-align: center; padding-top: 17px; border-top: 1px solid $secondary-color;  }
+#footer-region      {  background-color: $footer-bg; padding-top: 17px; border-top: 1px solid $footer-border-color; margin-top:15px; margin-bottom:15px; border-bottom-left-radius:7px; border-bottom-right-radius: 7px;}
+#footer-content{ margin-left: 1px; margin-top: 1px; margin-bottom:1px;}
+#footer-widgets{padding:33px 48px 45px;}
+.footer-widget{margin-right:34px;float:left; color: $widget-color; text-shadow: 1px 1px 1px $white; }
+.footer-widget a{color: $widget-link-color;}
+.widgettitle{ color: $widget-title-color;}
+p#copyright{float:right;color: $copyright-color; text-shadow: 1px 1px 1px $white; padding-bottom:20px; padding-right:48px;}

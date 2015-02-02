@@ -1,22 +1,22 @@
 <header>
-  <!--<div class="contain-to-grid">-->
-    <nav class="top-bar" data-topbar role="navigation">
-      <ul class="title-area">
-        <li class="name">
-          <h1>
-            <a href="#home">
-              <span id="logo">
-                <img src="images/MiRL_Logo.png" />
-              </span>              
-            </a>
-          </h1>
-        </li>
-        <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
-        <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
-      </ul>
-      <section class="top-bar-section">
-        <ul id="nav-links" class="right"></ul>
-      </section>
-    </nav>
-  <!--</div>-->
+ <nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">
+        <img alt="Brand" src="images/MiRL_Logo_topbar.png" height="30px">
+      </a>
+    </div>
+    <div class="collapse navbar-collapse" id="navbar-collapse-1">
+      <ul id="nav-links" class="nav navbar-nav"></ul>  
+    </div>
+  </div>
+</nav>
+
+  
 </header>
