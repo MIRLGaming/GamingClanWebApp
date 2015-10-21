@@ -3,4 +3,6 @@ html, body {  height: 100%; font-family: Century Gothic, Arial, Courier New, San
 .loading-container        {  
   .spin-container {  height: 50px; width:50px; background-color:#333; border-radius:10px; margin: 15px auto; }
 }
+#wrap{ height: auto !important; min-height:100%; margin-botom: -80px}
 #main-region{min-height:400px;}
+#push{ height: 80px; }
